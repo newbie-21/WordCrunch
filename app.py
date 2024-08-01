@@ -55,7 +55,7 @@ st.session_state.max_length = st.number_input("Enter the maximum output size", m
 st.session_state.min_length = st.number_input("Enter the minimum output size", min_value=1, max_value=1000, value=st.session_state.min_length)
 
 # Buttons in columns
-col1, col2 = st.columns([9, 1])
+col1, col2 = st.columns([7, 1])
 
 with col1:
     if st.button("Summarize"):
